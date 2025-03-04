@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 import dill
 
-from src.exception import CustomException
+from src.exception import CustomException # type: ignore
 
 def save_object(file_path, obj):
     try:
